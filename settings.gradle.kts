@@ -16,5 +16,5 @@ dependencyResolutionManagement {
 rootProject.name = "Break"
 include(
     ":app",
-    ":library:designesystem"
+    ":library:designsystem"
 )
