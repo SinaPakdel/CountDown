@@ -14,4 +14,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Break"
-include(":app")
+include(
+    ":app",
+    ":library:designesystem"
+)
