@@ -2,7 +2,6 @@ package ir.sina.countdown.component
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import ir.sina.designesystem.ThemePreview
@@ -14,9 +13,9 @@ fun Counter(
     minute: String,
     second: String
 ) {
-    Row (verticalAlignment = Alignment.CenterVertically){
+    Row(verticalAlignment = Alignment.CenterVertically) {
         CounterText(text = minute)
-        Text(text = " : ")
+        CounterText(text = ":")
         CounterText(text = second)
     }
 }
