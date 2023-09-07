@@ -16,6 +16,7 @@ dependencyResolutionManagement {
 rootProject.name = "Break"
 include(
     ":app",
-    ":library:designsystem",
     ":feature:countdown"
 )
+
+include(":library:designsystem")
